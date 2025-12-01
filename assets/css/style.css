@@ -1,0 +1,35 @@
+/* Google Fonts Imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+/* CSS Variables */
+:root {
+    --primary-font: "Noto Sans Display", sans-serif;
+    --secondary-font: "Titillium Web", sans-serif;
+    --primary-color: #d7c09f;
+    --secondary-color: #b2a490;
+     --highlight-color:#5f2929;
+     --highlight-color-light:#8d5656;
+}
+/* Global Styles */
+body {
+    font-family: var(--primary-font);
+    padding-top: 70px; /* Adjust for fixed navbar height */
+}
+
+h1 {
+    font-family: var(--primary-font);
+}
+
+h2 {
+    font-family: var(--secondary-font);
+}
+
+p {
+
+}
+
+/* Navbar Styles */
+#navbar {
+    background-color: var(--primary-color);
+    margin-bottom: 4rem;
+    border: solid #000000;
+}
