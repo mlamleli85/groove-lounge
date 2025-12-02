@@ -26,10 +26,10 @@
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation section-->
 
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top mb-3" data-bts-theme="dark">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bts-theme="dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <h1 class="display-6"><strong>Groove Lounge</strong></h1>
+                <h1 class="display-6"><strong>Groove Lounge</strong></h1>    
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -56,7 +56,7 @@
 
     <!-- Header section -->
 
-    <header id="header" class="container section">
+    <header id="header" class="container header-sub">
         <div class="row">
             <div class="col-12 col-xl-6 text-center text-xl-start">
                 <h1 class="display-3">Welcome to Groove Lounge!</h1>
@@ -71,16 +71,16 @@
     </header>
     <!-- Main section -->
     <main>
-        <section id="about" class="container section mb-2">
+        <section id="about" class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="display-4 text-center mb-4">About</h2>
+                    <h2 class="display-4 text-center">About</h2>
                     <p>Whether you're a vinyl enthusiast or just a regular music lover, Groove Lounge is the
                         place for you. Established in 2009, you will find a wide variety of records from
                         jazz, soul, rock and many more. Sit back and enjoy a coffee while listening to your
                         favourite artists. Live events are hosted weekly.</p>
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-lg-6">
                     <h4 class="display-6">What to find in store:</h4>
                     <ul>
                         <li>Wide variety of vinyl records from different genres</li>
@@ -88,13 +88,46 @@
                         <li>Weekly live events including open-mic nights and listening sessions</li>
                         <li>Knowledgeable staff to help you find your next favourite record</li>
                 </div>
+            <div class="col-12 col-lg-6">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                    <th scope="col">Day</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Event</th>
+                    <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="row">Wednesdays</th>
+                    <td>8pm-12am</td>
+                    <td>9 Euros</td>
+                    <td>Open-Mic</td> 
+                    </tr>
+                    <tr>
+                    <th scope="row">Fridays</th>
+                    <td>8pm-1am</td>
+                    <td>10 Euros</td>
+                    <td>Live Music</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Saturdays</th>
+                    <td>9pm-2am</td>
+                    <td>Free</td>
+                    <td>Jam Session</td>
+                    </tr>
+                </tbody>
+            </table>
+         </div>      
             </div>
         </section>
-        <section id="events" class="container section">
+        <section id="events" class="container mt-4">
             <div class="row">
-                <div class="col-12 text-center mb-3">
+                <div class="col-12 text-center">
                     <h2 class="display-4">Events</h2>
                 </div>
+ <!-- Events Cards section -->               
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-4">
                         <div class="card">
@@ -102,19 +135,17 @@
                                 <h5 class="card-title">Open-Mic Night</h5>
                                 <img src="assets/images/pexels-johndetochka-15789086.png" class="card-img-top"
                                     alt="Musician on stage performing">
-                                <p class="card-text">Join us every Wednesday for our weekly open-mic night. Starts at
-                                    9pm</p>
+                                <p class="card-text">Join us every Wednesday for our weekly open-mic night.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 mb-4">
+                    <div class="col-12 col-lg-4">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Listening Sessions</h5>
                                 <img src="assets/images/pexels-cottonbro-6863080.png" class="card-img-top"
                                     alt="Woman sitting on couch listening to music.">
-                                <p class="card-text">With supporting text below as a natural lead-in to
-                                    additional content.</p>
+                                <p class="card-text">One of the most popular events on our calender, the Listening Sessions brings audiophiles together in an intimate setting to experience old & new favourites.</p>
                             </div>
                         </div>
                     </div>
@@ -136,20 +167,29 @@
     </main>
 
     <!-- Footer section -->
+    <!-- mt-auto added to push footer down the page -->
     <footer class="mt-auto">
-        <div id="contact" class="container">
+        <div id="contact" class="container header-sub">
             <div class="row justify-content-center">
-                <div class="col-12">
-                    <h2 class="text-center mt-4">Contact Us</h2>
-                    <p></p>
+                <div class="col-12 text-center">
+                    <h2 class="text-center mb-3">Get in touch!</h2>
+                    <address>
+                        <i class="fa-solid fa-location-dot"></i><strong> Groove Lounge</strong><br>
+                        123 Vinyl St. Music City, MC 12345<br>
+                        email: info@groove-lounge.com <br>
+                        Phone (123) 456-7890<br>
+                    </address>
                 </div>
-            <div class="row">
-                <div class="col-12 col-md-4" justify-content-center>
-                    
-
-                </div>
-            </div>    
-                    
+            </div>
+        </div>
+    <!-- Social media links -->    
+        <div class="social-media-links text-center">
+            <a href="https://www.instagram.com" target="_blank"
+                aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"
+                rel="noopener"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
+                rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
 
     </footer>
