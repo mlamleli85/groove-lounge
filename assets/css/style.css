@@ -44,10 +44,20 @@ main #about {
     height: 250px;
     object-fit: cover;
 }
-/* Table styles */
+/* Table Styles */
 #about .table-dark * {
     background-color: transparent;
     color: black;
+}
+/* Custom Button Styles */
+.button-signup {
+    padding: 8px 27px;
+    border: 2px solid var(--highlight-color);
+    color: var(--highlight-color-light);
+}
+.button-signup:hover {
+    background-color: var(--primary-color);
+    color: #000000;
 }
 /* Navbar styles */
 #navbar {
