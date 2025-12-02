@@ -21,9 +21,8 @@ h2 {
     margin-bottom: 3rem;
 }
 /* Header margin section */
-.header-sub {
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+.content-section {
+    padding-top: 2rem; /* prevents Navbar from overlapping */
 }
 main #about {
     background-color: var(--primary-color);
@@ -32,9 +31,7 @@ main #about {
     margin: auto;
 }
 /* Events Section */
-#events {
-    margin-bottom: 6rem;
-}
+
 #events .card {
     border: none;
     margin-bottom: 2rem;
