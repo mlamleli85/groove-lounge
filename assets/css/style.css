@@ -27,7 +27,7 @@ h2 {
 main #about {
     background-color: var(--primary-color);
     max-width: 100%;
-    padding: 1rem;
+    padding: 3rem;
     margin: auto;
 }
 /* Events Section */
@@ -66,6 +66,10 @@ main #about {
     font-family: var(--secondary-font);
     font-size: 20px;
 }
+.nav-item:hover {
+    text-decoration: underline;
+    color: #000000;
+}
 
 
 /* Footer Section */
@@ -73,10 +77,15 @@ footer {
     background-color: var(--primary-color);
     padding: 1rem;
     font-family: var(--secondary-font);
+    font-size: 1.3rem;
 }
 .social-media-links a {
     color: rgb(0, 0, 0);
     font-size: 2rem;
+    margin-right: 18px;
+}
+.social-media-links a:hover {
+    color: var(--highlight-color);
 }
 
 /* Media Queries */
