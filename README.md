@@ -6,23 +6,48 @@ The Groove Lounge website is a web page for our record store catering to vinyl e
 
 Users can find information on events taking place in-store as well as our contact information and opening times. A subscription form for our newsletter is also included on the page.
 
-![alt text](<Screenshot 2025-12-15 at 13.26.58.png>)
+![alt text](<Screenshot 2025-12-17 at 10.35.05.png>)
 
 
 
 ## Features
 ### Navigation
 - At the top of the page is our navigation section with the name of the store, Groove Lounge,clearly on the left.
-- On the right-hand side of the navigation bar, you will find links to the Home, About, Events, Contact and Sign Up sections.
+- On the right-hand side of the navigation bar, you will find links to the Home, About, Events, Contact and Sign Up sections. These sections are located further down the same page.
+- The links are underlined when the user hovers over them.
 - The font and background colour are clearly distinguishable.
 
 
 
 
-### The Header section
-- Included in the header section is a welcome message and a short description of what the store is about.
-- 
-### Sign up form
+
+### The Header Section
+- Included in the header section is a welcome message and a short description of what the store is about and who the website is targeted for. 
+- A photo of a girl in a record store is included for emphasis.
+
+![alt text](<Screenshot 2025-12-17 at 10.56.11.png>)
+
+### The About Section
+- The About section includes information about what visitors can find in-store. 
+- There is also detailed information about the events taking place.
+
+![alt text](<Screenshot 2025-12-17 at 11.01.00.png>)
+
+### Events Section
+- In the Events section are photos with a short description of the events.
+
+![alt text](<Screenshot 2025-12-18 at 11.07.43.png>)
+
+### Sign Up Section
+- In the Sign Up section, users are invited to sign up for the newsletter by filling in their information on a form.
+- Users can fill in their Name, Email address and Phone Number.
+
+![alt text](<Screenshot 2025-12-18 at 11.10.03-1.png>)
+
+- Upon completion of the form, users are shown a success message confirming their subscription to the newsletter.
+
+![alt text](<Screenshot 2025-12-18 at 11.14.51.png>)
+
 ### Contact section
 
 ## How to View the Project
