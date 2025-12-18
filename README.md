@@ -40,7 +40,7 @@ Users can find information on events taking place in-store as well as our contac
 
 ### Sign Up Section
 - In the Sign Up section, users are invited to sign up for the newsletter by filling in their information on a form.
-- Users can fill in their Name, Email address and Phone Number.
+- Users can fill in their Name, Email Address and Phone Number.
 
 ![alt text](<Screenshot 2025-12-18 at 11.10.03-1.png>)
 
@@ -48,7 +48,16 @@ Users can find information on events taking place in-store as well as our contac
 
 ![alt text](<Screenshot 2025-12-18 at 11.14.51.png>)
 
-### Contact section
+### Contact Section
+- The Contact section shows the user our contact details, which inlude the opening times, address, email and phone number.
+- Below that you find icons to the social media links to Instagram, Facebook and X.
+
+![alt text](<Screenshot 2025-12-18 at 11.30.14.png>)
+
+### Testing
+- The website was tested on Google Chrome, Safari and Firefox. It worked on all three browsers.
+- Using DevTools, I tested that the website's responsiveness and functionality on small to extra-large screen sizes.
+-The form where users can input their details works
 
 ## How to View the Project
 - [View the deployed website](https://username.github.io/codingclub/)
