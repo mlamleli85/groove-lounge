@@ -2,7 +2,7 @@
 
 ## Description
 
-The Groove Lounge website is a web page for our record store catering to vinyl enthusiasts and music lovers. Offering a wide selection of genres, visitors can relax in our lounge while listening to their favourite artists!
+The Groove Lounge website is a web page for our record store catering to vinyl enthusiasts and music lovers. Offering a wide selection of genres, visitors can relax in our lounge while listening to their favourite artists! Live performances and listening sessions are hosted weekly as well as an open-nic night for aspiring musicians.
 
 Users can find information on events taking place in-store as well as our contact information and opening times. A subscription form for our newsletter is also included on the page.
 
@@ -22,7 +22,7 @@ Users can find information on events taking place in-store as well as our contac
 
 
 ### The Header Section
-- Included in the header section is a welcome message and a short description of what the store is about and who the website is targeted for. 
+- Included in the Header section is a welcome message and a short description of what the store is about and who the website is targeted for. 
 - A photo of a girl in a record store is included for emphasis.
 
 ![alt text](<Screenshot 2025-12-17 at 10.56.11.png>)
@@ -52,16 +52,27 @@ Users can find information on events taking place in-store as well as our contac
 - The Contact section shows the user our contact details, which inlude the opening times, address, email and phone number.
 - Below that you find icons to the social media links to Instagram, Facebook and X.
 
-![alt text](<Screenshot 2025-12-18 at 11.30.14.png>)
+![alt text](<Screenshot 2025-12-18 at 12.08.02.png>)
 
 ### Testing
 - The website was tested on Google Chrome, Safari and Firefox. It worked on all three browsers.
-- Using DevTools, I tested that the website's responsiveness and functionality on small to extra-large screen sizes.
--The form where users can input their details works
+- Using DevTools, I tested the website's responsiveness and functionality on small to extra-large screen sizes.
 
-## How to View the Project
-- [View the deployed website](https://username.github.io/codingclub/)
+### Validation Tests
+- No errors were detected using the W3C Markup Validation Sevice (HTML).
+- No errors were detected using the W3C CSS Validation Sevice (CSS).
+- Using the Lighthouse feature in DevTools, I tested the website's accessiblity.
+
+![alt text](<Screenshot 2025-12-18 at 13.18.00.png>)
+
+### Bugs
+- There are no unfixed bugs on the website.
+
+
+## Deployment
+- The website was deployed to GitHub pages.
+- This is the live link to the website: (https://mlamleli85.github.io/groove-lounge/)
 
 ## Credits
-- The code for the social media icon animations was taken from [website name](https://username2.github.io/projectname/)
-- Thanks to my mentor Rudy Matheson for his patience and support as I built out this project.
+### Media
+- All images used on the website were taken from Pexels. (https://www.pexels.com/)
